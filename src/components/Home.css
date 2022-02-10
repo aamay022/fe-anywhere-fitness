@@ -1,0 +1,70 @@
+.links{
+    text-decoration: none;
+    color: black;
+    border-radius: 35%;
+    padding: 10px;
+    margin: 5%;
+}
+
+
+.section-one{
+    display: flex;
+    flex-wrap: wrap;
+}
+.first-content{
+    width:50%;
+    padding: 5%;
+    background-color: #212529;
+    color: white;
+}
+
+.first-content p{
+    font-size: 1.3rem;
+    text-align: center;
+    
+}
+.hero-image{
+    height:40vh;
+    background-image:url('https://images.unsplash.com/photo-1599058917212-d750089bc07e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80');
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+footer{
+    background-color:#212529;
+    display:flex;
+    justify-content:space-around;
+    color:#fff;
+    padding:2% 0;
+    width: 100%
+}
+footer a{
+    color:#fff;
+}
+footer a:hover{
+    color:#4f4f4f;
+}
+footer div{
+    width:30%;
+}
+nav.social{
+    display:flex;
+    justify-content: space-between;
+    margin-top:10%;
+}
+nav.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav.main a{
+    margin: 2% 0;
+}
+.copyright{
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+}

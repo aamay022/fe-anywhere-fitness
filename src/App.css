@@ -7,6 +7,19 @@
   pointer-events: none;
 }
 
+.navBar {
+  
+  background-color: #282c34;
+  text-decoration: none;
+  color: #61dafb;
+}
+
+.item {
+text-decoration: none;
+font-size: 1.2rem;
+color: whitesmoke;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
